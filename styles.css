@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up responsive typography using 'rem' units */
+html {
+    font-size: 16px; /* Base font size */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0efef;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f0efef;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+section.banner {
+    text-align: center;
+    padding: 3rem 0;
+    color: #f0efef;
+    font-style: italic;
+    background-image: url('fake_images/cover2.jpg');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image horizontally and vertically */
+}
+
+section.banner h2 {
+    font-size: 4rem;
+    margin: 1rem 0rem 0rem;
+    color: #f0efef;
+}
+
+.btn {
+    display: inline-block;
+    margin: 17rem 0rem 2rem;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #007BFF;
+}
+
+section.about {
+    padding: 2rem;
+    background-color: #f0efef;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #f0efef;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+}
